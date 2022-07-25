@@ -41,8 +41,9 @@
         padding:20px;
     }
 
-    .header-menu {
+    .header-menu:hover {
         cursor:pointer;
+        text-decoration: underline;
     }
 
     .header-menu {
