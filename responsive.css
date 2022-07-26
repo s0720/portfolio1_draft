@@ -8,11 +8,15 @@
    }
 
    .fa-solid {
-    padding:0px 0px 0px 5px;
+    padding:5px;
 }
 
    aside {
        width:0%;
+   }
+
+   .sidemenu-item {
+       display:none;
    }
 
    main {
