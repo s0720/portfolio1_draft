@@ -97,4 +97,9 @@
         cursor:pointer;
     }
     
+    /* sp */
+    .sp-header-icons {
+        display:block;
+        padding:0px 0px 0px 5px;
+    }
     
