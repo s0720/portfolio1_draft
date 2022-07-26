@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="responsive.css">
     <script src="https://kit.fontawesome.com/0edb6b0504.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
   </head>
   <body>
       <header>
@@ -24,7 +28,7 @@
             <div class="header-icons">
               <a><i class="fa-solid fa-circle-user fa-lg"></i></a>
               <a><i class="fa-solid fa-heart fa-lg"></i></a>
-              <a><i class="fa-solid fa-cart-shopping"></i></a>
+              <a><i class="fa-solid fa-cart-shopping fa-lg"></i></a>
             </div>
           </div>
       </header>
@@ -40,8 +44,57 @@
               <li>ブレスレット</li>
             </ul>
           </div>
+          <div class="sidemenu-item">
+            <p class="sidemenu-title">CHARACTER</p>
+            <ul>
+              <li>ハローキティ</li>
+              <li>マイメロディ</li>
+              <li>リトルツインスターズ</li>
+              <li>シナもロール</li>
+              <li>ポムポムプリン</li>
+              <li>ぐでたま</li>
+              <li>クロミ</li>
+              <li>はぴだんぶい</li>
+              <li>こみゅぎゅん</li>
+              <li>ハンギョドン</li>
+              <li>その他</li>
+            </ul>
+          </div>
+          <div class="sidemenu-item">
+            <p class="sidemenu-title">SHOP BRAND</p>
+            <ul>
+              <li>サンリオ</li>
+              <li>C-Girls真珠屋</li>
+              <li>J-plus</li>
+              <li>THE KISS</li>
+              <li>U-treasure</li>
+              <li>white clover</li>
+              <li>Z.Angie</li>
+            </ul>
+          </div>
         </aside>
-        <main>aaaaa</main>
+        <main>
+          <div class="pickup-items">
+            <div class="sec_inner">
+              <div class="slider">   
+                    <div><img src=""></div>
+                    
+              </div>
+            </div>
+          </div>
+        </main>
       </div>
+    <!--js-->
+    <script>
+      $('.slider').slick({
+      autoplay: true,         //自動再生
+      autoplaySpeed: 2000,  //自動再生のスピード
+      speed: 800,  //スライドするスピード
+      dots: true, //スライドしたのドット
+      arrows: true,          //左右の矢印
+      infinite: true, //スライドのループ
+      pauseOnHover: false,   //ホバーしたときにスライドを一時停止しない　
+      });
+    </script>
   </body>
 </html>
