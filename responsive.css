@@ -1,0 +1,40 @@
+@media screen and (max-width:670px) {
+
+    .header-site-name img {
+        width:20%;
+    }
+
+    .header-menus {
+        display: none;
+    }
+
+    .header-menu {
+        padding:0px;
+        display:none;
+    }
+
+    .fa-solid {
+        padding:5px;
+    }
+    
+    main{
+        width:100%;
+    }
+    
+    aside {
+        width:0%;
+    }
+
+    .sidemenu-item {
+        display:none;
+    }
+
+    .sidemenu-title {
+        display:none;
+    }
+
+    aside li {
+        display:none;
+    }
+   
+}
