@@ -7,13 +7,9 @@
        display:none;
    }
 
-   .header-icons {
-    display:none;
-    }
-
-   .sp-header-icons {
-       float:right;
-   }
+   .fa-solid {
+    padding:5px;
+}
 
    aside {
        width:0%;
