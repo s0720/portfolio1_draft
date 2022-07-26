@@ -7,6 +7,14 @@
        display:none;
    }
 
+   .header-icons {
+    display:none;
+    }
+
+   .sp-header-icons {
+       float:right;
+   }
+
    aside {
        width:0%;
    }
