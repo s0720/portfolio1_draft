@@ -39,15 +39,12 @@
 
     .header-menu {
         padding:20px;
+        font-size:12px;
     }
 
     .header-menu:hover {
         cursor:pointer;
         text-decoration: underline;
-    }
-
-    .header-menu {
-        font-size:12px;
     }
 
     .header-icons {
@@ -76,4 +73,16 @@
     aside {
         flex: 1;
     }
+
+    .sidemenu-item {
+        padding-left:20px;
+    }
+
+    aside li {
+        list-style: none;
+        margin-left:-40px;
+        font-size:14px;
+        padding:5px 0px;
+    }
+    
     
