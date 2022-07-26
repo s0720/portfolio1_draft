@@ -7,6 +7,10 @@
        display:none;
    }
 
+   .fa-solid {
+    padding:5px;
+}
+
    aside {
        width:0%;
    }
