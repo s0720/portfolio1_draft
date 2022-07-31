@@ -14,7 +14,7 @@
     }
 
     .fa-solid {
-        padding-left:10px;
+        padding-left:6px;
     }
     
     main{
@@ -40,4 +40,13 @@
     
     
    
+}
+
+@media screen and (min-width:1620x)  {
+    .container{
+        width: 90%;
+        margin:0 auto;
+        margin-left:-300px;
+        margin-right:-300px;
+    }
 }
