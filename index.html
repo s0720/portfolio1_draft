@@ -83,6 +83,21 @@
               <div><img class="slider-img-1" src="https://res.cloudinary.com/duy26na5c/image/upload/v1659078907/portfolio1/portfolio1-pickupitems5_iglvzp.png"></div>  
             </div>
           </div>
+          <div class="new-arrivals">
+            <h2>NEW ARRIVALS</h2>
+            <div class="sec_inner_2">
+              <div class="slider-2">
+                   <div class="">
+                   <img class="">
+                   <p>テキスト</p>
+                   </div>
+                   <div class="">
+                   <img class="">
+                   <p>テキスト</p>
+                   </div>
+              </div>
+            </div>
+          </div>
         </main>
       </div>
     <!--js-->
@@ -95,6 +110,14 @@
       arrows: true,          //左右の矢印
       infinite: true, //スライドのループ
       pauseOnHover: false,   //ホバーしたときにスライドを一時停止しない　
+      });
+    </script>
+    <script>
+      $('.slider-2').slick({
+      slidesToShow: 6,
+      slidesToScroll: 6,
+      dots:true,
+      arrows:true
       });
     </script>
   </body>
